@@ -677,6 +677,12 @@ h3.my-profession
     font-weight: 400;
 }
 
+.g-map 
+{
+    text-align: center;
+}
+
+
 @media(max-width:1199px)
 {
     .section .container
@@ -742,5 +748,28 @@ h3.my-profession
         max-width: 100%;
         margin-left: 0;
     }
+
+}
+
+
+@media(min-width:683px) {
+    .g-small 
+    {
+        display: none;
+    }
+}
+
+@media(max-width:683px)
+{
+    .g-map 
+    {
+        display: none;
+
+    }
+    .g-small
+    {
+        text-align: center;
+    }
+
 
 }
