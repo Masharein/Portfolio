@@ -676,6 +676,14 @@ h3.my-profession
     color: var(--text-black-700);
     font-weight: 400;
 }
+a
+{
+    color: var(--text-black-900);
+}
+/* a.active
+{
+    color: var(--skin-color)
+} */
 
 .g-map 
 {
