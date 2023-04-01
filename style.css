@@ -733,8 +733,8 @@ a
      .portfolio .portfolio-item,
      .contact .contact-info-item
      {
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 50%;
+        max-width: 50%;
      }
      .about .about-content .education,
      .about .about-content .experience,
