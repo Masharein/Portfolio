@@ -730,7 +730,11 @@ a
 }
 @media(max-width:991px)
 {
-     .portfolio .portfolio-item,
+     .portfolio .portfolio-item
+     {
+        flex: 0 0 100%;
+        max-width: 100%;
+     }
      .contact .contact-info-item
      {
         flex: 0 0 50%;
